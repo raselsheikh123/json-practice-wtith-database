@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="wrapper">
+    <div id="header">
+        <h1>Crud</h1>
+    </div>
+    <div id="menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="add.html">Add</a>
+            </li>
+            <li>
+                <a href="update.html">Update</a>
+            </li>
+            <li>
+                <a href="delete.html">Delete</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="main-content">
+        <div class="content_head">
+            <h2>All Records</h2>
+            <div class="search_item">
+                <input id="search-value" type="text" placeholder="Search here...">
+            </div>
+        </div>
+        <table cellpadding="7px">
+            <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Class</th>
+            <th>Phone</th>
+            <th>Action</th>
+            </thead>
+
+            <tbody class="all_records">
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
